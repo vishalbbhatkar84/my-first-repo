@@ -1,0 +1,15 @@
+top -o %CPU 
+top -o %MEM
+top -u root
+top -u root %MEM
+top -u root -o %MEM
+top -u root -o %MEM %CPU
+top -u root -o %MEM -o %CPU
+top -u root -o %CPU
+top -u root -o %MEM
+top -u vishalb -o %MEM
+top -u vishalb -o %CPU
+pidstat -p 278148
+top -u vishalb -o %CPU -n 2
+top -u vishalb -o %CPU
+
